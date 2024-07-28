@@ -31,13 +31,7 @@ To build the GptLogFormGen application, follow these steps:
    ```bash
    cd GptLogFormGen
    ```
-
-3. Navigate to the solution file directory:
-   ```bash
-   cd src/GptLogFormGen
-   ```
-
-4. Build the project:
+3. Build the project:
    ```bash
    dotnet publish src/GptLogFormGen/GptLogFormGen/GptLogFormGen.sln -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -p:IncludeAllContentForSelfExtract=true -o build
 
