@@ -1,0 +1,6 @@
+# Ignore .NET Core build results
+bin/
+obj/
+out/
+
+build/
